@@ -6,10 +6,10 @@ PROFET+2 12V – Arduino Shield (High Side Switch)
 Infineon PROFET+2 12V shield for Arduino
 
 Boards available using following INFINEON PROFET+2 12 devices:
-BTS7002-1EPP 
-BTS7004-1EPP 
-BTS7006-1EPP 
-BTS7008-1EPP
+- BTS7002-1EPP 
+- BTS7004-1EPP 
+- BTS7006-1EPP 
+- BTS7008-1EPP
 
 The purpose of tPROFET+2 12V project is to provide very simple interfaces to the PROFET+2 Arduino Shield via C++ objects.
 Thank you for using choosing the high current PROFET shield TSDSO-14. We hope you will enjoy your experience with 4 of our powerful PROFET +2 12V high side switches with integrated protection features and load current measurements.
