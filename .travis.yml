@@ -1,0 +1,24 @@
+language: python
+python:
+    - "2.7"
+
+sudo: required
+        
+branches:
+    - master
+
+env:
+    matrix:
+        - PLATFORMIO_CI_SRC=examples/blink
+        - PLATFORMIO_CI_SRC=examples/button1
+        - PLATFORMIO_CI_SRC=examples/button2
+        - PLATFORMIO_CI_SRC=examples/button3
+        - PLATFORMIO_CI_SRC=examples/readADC
+
+install:
+    - pip install -U platformio
+    - platformio platform install -f infineonxmc 
+    - platformio platform install -f atmelavr
+
+script:
+    - platformio ci --lib="." --board=xmc1100_boot_kit --board=xmc4700_relax_kit --board=uno 
