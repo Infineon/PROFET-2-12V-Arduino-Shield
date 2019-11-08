@@ -1,0 +1,17 @@
+{
+    "name": "PROFET-2-12V-Arduino-Shield",
+    "keywords": "",
+    "description": "=C++ library for PROFET+2 Arduino Shield based on the BTS700x-1EPP high-side power switches family", 
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/Infineon/PROFET-2-12V-Arduino-Shield.git",
+      "branch": "master"
+    },
+    "version":"1.0.0",
+    "frameworks": "arduino",
+    "platforms": [
+        "infineonxmc",
+        "atmelavr"
+    ]
+  }
